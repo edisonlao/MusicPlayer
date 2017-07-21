@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/playlabelblur"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/bizhi3"
+        android:scaleType="centerCrop"
+        android:scrollY="40dp"
+        />
+    <RelativeLayout
+        android:id="@+id/playlabel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        >
+        <TextView
+            android:id="@id/tvTitle"
+            android:layout_width="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+
+            />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/zhuanjitu"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/bizhi"
+        android:scaleType="centerCrop"
+        android:scrollY="50dp"
+        />
+    <ImageView
+        android:id="@+id/playkeyblur"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="370dp"
+        android:src="@mipmap/bizhi3"
+        android:scaleType="centerCrop"
+        android:scrollY="150dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="370dp"
+        >
+        <ProgressBar
+            android:id="@+id/pbProgress"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/progressbar1"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="410dp"
+
+        >
+        <ImageButton
+            android:id="@id/btnshangyishou"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/format3"
+            android:background="#00000000"
+            android:layout_marginTop="40dp"
+            android:onClick="onClick"
+
+            />
+        <ImageButton
+            android:id="@id/btnbofang"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@+id/btnshangyishou"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="20dp"
+            android:background="#00000000"
+            android:src="@drawable/bofang3"
+            android:onClick="onClick"
+            />
+        <ImageButton
+            android:id="@id/btnxiayishou"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:layout_toRightOf="@+id/btnbofang"
+            android:src="@drawable/next3"
+            android:background="#00000000"
+            android:layout_marginTop="40dp"
+            android:onClick="onClick"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

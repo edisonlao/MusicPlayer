@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp">
+<TextView
+    android:id="@+id/geming2"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:textColor="#FFFFFF"
+    android:shadowColor="#000000"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="5"
+    android:layout_toRightOf="@+id/getu"
+    android:layout_marginLeft="5dp"
+    android:gravity="center"
+    android:text="1111"
+    />
+    <ImageView
+        android:id="@+id/getu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/musicicon"/>
+</RelativeLayout>
